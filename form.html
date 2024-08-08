@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>A2D PC Factory - We Build People BEFORE We Build PC</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta content="" name="keywords">
+    <meta content="" name="description">
+
+    <!-- Favicon -->
+    <link href="img/favicon.png" rel="icon">
+
+    <!-- Google Web Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="css/form-terms.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Dawning+of+a+New+Day&display=swap" rel="stylesheet">
+   
+    <!-- Icon Font Stylesheet -->
+    <script src="https://kit.fontawesome.com/7432300432.js" crossorigin="anonymous"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet">
+
+    <!-- Libraries Stylesheet -->
+    <link href="lib/animate/animate.min.css" rel="stylesheet">
+    <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+    <link href="lib/tempusdominus/css/tempusdominus-bootstrap-4.min.css" rel="stylesheet" />
+
+    <!-- Customized Bootstrap Stylesheet -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Template Stylesheet -->
+    <link href="css/style.css" rel="stylesheet">
+
+    <style>
+        /* Add any additional custom styles here */
+    </style>
+</head>
+
+<body>
+    <div class="container-fluid bg-black p-0">
+        <!-- Navbar & Hero Start -->
+        <div class="container-xxl position-relative p-0">
+            <nav class="navbar navbar-expand-lg navbar-dark bg-dark px-4 px-lg-5 py-3 py-lg-0 justify-content-center">
+                <a href="./index.html" class="navbar-brand p-0">
+                    <img src="img/logo.png" alt="Logo">
+                </a>
+            </nav>
+            <div class="container-xxl py-lg-4 py-sm-0 bg-darkness hero-header mb-5 Home_Wrapper sm:h-[100px]   md:h-[400px] lg:h-[450px]  xl:h-[600px]  lg:top-0">
+                <div class="container my-5 py-lg-4 py-sm-0 absolute h-[250px] -top-5 left-0 ">
+                    <div alt="Overlay Image" class="overlay-image"></div>
+                    <div alt="Overlay Image" class="overlay-image2"></div>
+                    <div class="row align-items-center g-5">
+                        <div class="col-lg-6 text-center text-lg-start">
+                            <h1 class="display-3 text-white ">WE BUILD <span class="dawning-of-a-new-day-regular">People</span><br>BEFORE WE BUILD <span style="color: #E4A025;">PC</span></h1>
+                            <p class="text-white mb-4 pb-2">Crafting Your Ultimate Gaming Experience - Unleash Your Power! <br>Smart people work with Smart Systems. Customise your Dream PC</p>
+                        </div>
+                        <div class="col-lg-6 text-center text-lg-end">
+                            <video src="/img/PC.mp4" autoplay loop muted></video>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Navbar & Hero End -->
+
+        <!-- Reg form -->
+        <form method="post" action="/post" name="enquiry-form">
+            <h2>ENQUIRY FORM</h2>
+            <div class="mb-3">
+                <label for="name" class="form-label">Mention your name:</label>
+                <input type="text" class="form-control" id="name" name="name" placeholder="Name" required>
+            </div>
+            <div class="mb-3">
+                <label for="age" class="form-label">Mention your exact age:</label>
+                <input type="number" class="form-control" id="age" name="age" placeholder="Age" required>
+            </div>
+            <div class="mb-3">
+                <label for="whatsapp" class="form-label">Provide your WhatsApp number:</label>
+                <input type="tel" class="form-control" id="whatsapp" name="whatsapp" placeholder="WhatsApp Number" required>
+            </div>
+            <div class="mb-3">
+                <label for="location" class="form-label">Where are you located at? (Mention your City/Town)</label>
+                <input type="text" class="form-control" id="location" name="location" placeholder="City/Town" required>
+            </div>
+            <div class="mb-3">
+                <label for="occupation" class="form-label">What do you do for a living? (E.g: Developer, Student, Photographer, etc.)</label>
+                <input type="text" class="form-control" id="occupation" name="occupation" placeholder="Occupation" required>
+            </div>
+            <div class="mb-3">
+                <label for="purpose" class="form-label">For what purpose will this PC serve you? (E.g: Video editing, Gaming, etc.)</label>
+                <input type="text" class="form-control" id="purpose" name="purpose" placeholder="Purpose" required>
+            </div>
+            <div class="mb-3">
+                <label for="investment" class="form-label">The best investment you are planning for this PC?</label>
+                <div class="inv-radio">
+                    <label><input type="radio" name="investment" value="30,000 - 50,000 INR" required> Rs 30,000 - Rs 50,000</label><br>
+                    <label><input type="radio" name="investment" value="50,000 - 75,000 INR"> Rs 50,000 - Rs 75,000</label><br>
+                    <label><input type="radio" name="investment" value="75,000 - 1,00,000 INR"> Rs 75,000 - Rs 1,00,000</label><br>
+                    <label><input type="radio" name="investment" value="More than 1 lakh INR"> More than 1 lakh</label><br>
+                    <label><input type="radio" name="investment" value="Other"> Other&nbsp;<input type="text" name="investment_other"></label>
+                </div>
+            </div>
+            <div class="mb-3">
+                <label for="income" class="form-label">What is your monthly income? This will help us suggest the best investment for you</label>
+                <select id="income" name="income" class="form-control" required>
+                    <option value="" selected disabled hidden>Select</option>
+                    <option value="Student">Student</option>
+                    <option value="Unemployed">Unemployed</option>
+                    <option value="10,000 - 25,000 INR">Rs 10,000 - Rs 25,000</option>
+                    <option value="25,000 - 50,000 INR">Rs 25,000 - Rs 50,000</option>
+                    <option value="50,000 - 75,000 INR">Rs 50,000 - Rs 75,000</option>
+                    <option value="75,000 - 1,00,000 INR">Rs 75,000 - Rs 1,00,000</option>
+                    <option value="More than 1 lakh INR">More than one lakh</option>
+                </select>
+            </div>
+            <div class="mb-3">
+                <label for="Delivery" class="form-label">When do you need this PC?</label>
+                <div class="inv-radio">
+                    <label><input type="radio" name="Delivery" value="Right now" required> Right now</label><br>
+                    <label><input type="radio" name="Delivery" value="In a few days"> In a few days</label><br>
+                    <label><input type="radio" name="Delivery" value="In a month"> In a month</label><br>
+                    <label><input type="radio" name="Delivery" value="Other"> Other&nbsp;<input type="text" name="delivery_other"></label>
+                </div>
+            </div>
+            <div class="mb-3">
+                <label for="suggestions" class="form-label">Mention any other suggestions if you have</label>
+                <textarea class="form-control" id="suggestions" name="suggestions" rows="3" cols="30" placeholder="Your suggestions"></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary">Submit</button>
+        </form>
+
+        <!-- Footer Start -->
+        <div class="container-fluid bg-dark text-light footer wow fadeIn" data-wow-delay="0.1s">
+            <div class="container py-5">
+                <div class="row g-5">
+                    <div class="col-lg-6 col-md-6">
+                        <h4 class="text-white mb-3">Quick Link</h4>
+                        <a class="btn btn-link" href="">About Us</a>
+                        <a class="btn btn-link" href="">Contact Us</a>
+                        <a class="btn btn-link" href="">Privacy Policy</a>
+                        <a class="btn btn-link" href="">Terms & Condition</a>
+                        <a class="btn btn-link" href="">FAQs & Help</a>
+                    </div>
+                    <div class="col-lg-6 col-md-6">
+                        <h4 class="text-white mb-3">Get In Touch</h4>
+                        <p class="mb-2"><i class="fa fa-map-marker-alt me-3"></i>Chennai, India</p>
+                        <p class="mb-2"><i class="fa fa-phone-alt me-3"></i>+91 9876543210</p>
+                        <p class="mb-2"><i class="fa fa-envelope me-3"></i>info@example.com</p>
+                        <div class="d-flex pt-2">
+                            <a class="btn btn-outline-light btn-social" href=""><i class="fab fa-twitter"></i></a>
+                            <a class="btn btn-outline-light btn-social" href=""><i class="fab fa-facebook-f"></i></a>
+                            <a class="btn btn-outline-light btn-social" href=""><i class="fab fa-youtube"></i></a>
+                            <a class="btn btn-outline-light btn-social" href=""><i class="fab fa-linkedin-in"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="copyright">
+                    <div class="row">
+                        <div class="col-md-12 text-center">
+                            &copy; <a class="border-bottom" href="#">Your Company Name</a>, All Right Reserved.
+                            <!-- This template is licensed under CC BY 3.0. -->
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Footer End -->
+
+        <!-- JavaScript Libraries -->
+        <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
+        <script src="lib/wow/wow.min.js"></script>
+        <script src="lib/easing/easing.min.js"></script>
+        <script src="lib/waypoints/waypoints.min.js"></script>
+        <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+        <script src="lib/tempusdominus/js/moment.min.js"></script>
+        <script src="lib/tempusdominus/js/moment-timezone.min.js"></script>
+        <script src="lib/tempusdominus/js/tempusdominus-bootstrap-4.min.js"></script>
+
+        <!-- Template Javascript -->
+        <script src="js/main.js"></script>
+        <script src="./server.js"></script>
+    </div>
+</body>
+
+</html>
